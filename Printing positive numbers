@@ -1,0 +1,18 @@
+list1 = [12,-7,5,64,-14]
+list2 = [12,14,-95,3]
+n1 = len(list1)
+n2 = len(list2)
+o1 = []
+o2 = []
+i = 0
+while i<n1:
+    if list1[i]>0:
+       o1.append(list1[i])
+    i += 1
+i = 0
+while i<n2:
+    if list2[i]>0:
+        o2.append(list2[i])
+    i += 1
+print("positive numbers in list1: ", o1)
+print("positive numbers in list2: ", o2)
